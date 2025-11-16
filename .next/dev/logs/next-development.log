@@ -718,3 +718,212 @@ It can also happen if the client has a browser extension installed which messes 
 [11:31:06.007] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331482343}
 [11:31:09.975] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331486307}
 [11:31:23.895] Browser LOG     Verification response: {"data":{"amount":500000,"authorization":{"account_name":null,"authorization_code":"AUTH_kroxaf66yo","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T22:02:12.000Z","created_at":"2025-11-16T22:02:12.000Z","currency":"NGN","customer":{"customer_code":"CUS_p5sunftnt87jqhs","email":"johndoe@gmail.com","first_name":null,"id":319539133,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":17500,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540982821,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Attempted to pay with card","time":14,"type":"action"},{"message":"Successfully paid with card","time":14,"type":"success"}],"input":[],"mobile":false,"start_time":1763330539,"success":true,"time_spent":14},"message":null,"metadata":{"full_name":"John Doe","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T22:02:33.000Z","paid_at":"2025-11-16T22:02:33.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"o9h59prwyi","requested_amount":500000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T22:02:12.000Z"}}
+[12:50:06.456] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.480] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.488] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.495] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.498] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.501] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.555] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.557] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.559] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.562] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.564] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.566] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.567] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.568] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.570] Server  ERROR    ⨯ ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.572] Server  ERROR    ⨯ ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[12:50:06.649] Server  LOG      ✓ Compiled in 777ms
+[12:50:07.883] Browser ERROR   ./app
+Module not found: Can't resolve './globals.css'
+server relative imports are not implemented yet. Please try an import relative to the file you are importing from.
+
+https://nextjs.org/docs/messages/module-not-found
+[12:50:07.883] Browser ERROR   ./app/layout.tsx:4:1
+Module not found: Can't resolve '/globals.css'
+  2 | import { Geist, Geist_Mono } from 'next/font/google'
+  3 | import { Analytics } from '@vercel/analytics/next'
+> 4 | import '/globals.css'
+    | ^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | const _geist = Geist({ subsets: ["latin"] });
+  7 | const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+https://nextjs.org/docs/messages/module-not-found
+[12:50:43.369] Server  LOG      ✓ Compiled in 415ms
+[12:50:47.914] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[12:50:47.914] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[12:50:47.914] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763336263696}
+[12:58:57.172] Server  LOG      ✓ Compiled in 277ms
+[12:59:31.027] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[12:59:31.027] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[12:59:31.027] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763336787363}
