@@ -43,7 +43,7 @@ export function TransactionVerifier() {
 
     try {
       // Call your backend to verify the transaction with Paystack
-      const response = await fetch('/api/paystack/verify', {
+      const response = await fetch('/api/verify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -52,6 +52,7 @@ export function TransactionVerifier() {
       });
 
       const data = await response.json();
+      console.log('Verification response:', data);
 
       if (!response.ok) {
         throw new Error(data.error || 'Failed to verify transaction');
@@ -66,7 +67,7 @@ export function TransactionVerifier() {
   };
 
   const getStatusColor = (status: string) => {
-    switch (status.toLowerCase()) {
+    switch (status?.toLowerCase()) {
       case 'success':
         return 'text-green-600 dark:text-green-400';
       case 'failed':
@@ -79,7 +80,7 @@ export function TransactionVerifier() {
   };
 
   const getStatusIcon = (status: string) => {
-    switch (status.toLowerCase()) {
+    switch (status?.toLowerCase()) {
       case 'success':
         return <CheckCircle className="h-5 w-5 text-green-600 dark:text-green-400" />;
       case 'failed':
@@ -155,18 +156,18 @@ export function TransactionVerifier() {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Email</p>
-                  <p className="font-semibold text-foreground">{result.customer.email}</p>
+                  <p className="font-semibold text-foreground">{result.customer?.email}</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-xs text-muted-foreground">Card Brand</p>
-                  <p className="font-semibold text-foreground capitalize">{result.authorization.brand}</p>
+                  <p className="font-semibold text-foreground capitalize">{result?.authorization?.brand}</p>
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">Last 4 Digits</p>
-                  <p className="font-semibold text-foreground">•••• {result.authorization.last4}</p>
+                  <p className="font-semibold text-foreground">•••• {result?.authorization?.last4}</p>
                 </div>
               </div>
 

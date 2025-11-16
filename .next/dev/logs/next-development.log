@@ -13,3 +13,708 @@
 [00:01:05.009] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:01:05.009] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [00:01:05.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763290077281}
+[02:13:28.658] Server  LOG        Reload env: .env
+[07:16:56.042] Server  LOG      ✓ Compiled in 878ms
+[07:17:12.566] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[07:17:13.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:17:13.260] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:17:13.260] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763316249600}
+[07:17:33.429] Server  ERROR   Paystack initialization error: {}
+[07:23:24.011] Server  LOG        Reload env: .env
+[07:23:46.876] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:23:46.876] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:23:46.876] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763316643206}
+[07:24:39.465] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[07:24:39.787] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:24:39.787] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:24:39.787] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763316696126}
+[07:25:46.641] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[07:25:46.956] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:25:46.956] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:25:46.956] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763316763297}
+[07:27:30.814] Server  LOG      ✓ Compiled in 727ms
+[07:27:36.720] Browser LOG     Initialization response: {"access_code":"m3xud24wfjzyxp3","authorization_url":"https://checkout.paystack.com/m3xud24wfjzyxp3","reference":"ugz13xirsm"}
+[07:30:22.741] Server  LOG      ✓ Compiled in 498ms
+[07:30:25.960] Browser LOG     Initialization response: {}
+[07:30:54.300] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[07:30:54.706] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:30:54.706] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:30:54.706] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763317071043}
+[07:31:06.161] Browser LOG     Initialization response: {"access_code":"ahj77daaqq2jaer","authorization_url":"https://checkout.paystack.com/ahj77daaqq2jaer","reference":"f4lb5nx6tx"}
+[07:31:55.407] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.412] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\.next\dev\server\chunks\ssr\275cd_next_dist_79be4733._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.422] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.436] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.440] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.443] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.446] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.449] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.453] Server  ERROR    ⨯ Error: The default export is not a React Component in "/verify/page"
+[07:31:55.469] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.470] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\.next\dev\server\chunks\ssr\275cd_next_dist_79be4733._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.472] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.476] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.478] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.479] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.480] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.495] Server  ERROR   C:\Users\abdul\Downloads\PayFlow\node_modules\.pnpm\next@16.0.3_react-dom@19.2.0_react@19.2.0__react@19.2.0\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[07:31:55.499] Server  ERROR    ⨯ Error: The default export is not a React Component in "/verify/page"
+[07:31:58.513] Server  LOG      ○ Compiling /_error ...
+[07:32:03.530] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/verify/page"
+[07:37:52.935] Server  LOG      ✓ Compiled in 305ms
+[07:37:55.141] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:37:55.141] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[07:37:55.141] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=f4lb5nx6tx&reference=f4lb5nx6tx color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=f4lb5nx6tx&reference=f4lb5nx6tx","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763317491472}
+[07:37:55.547] Server  ERROR    ⨯ Detected default export in '[project]/app/api/verify/route.ts'. Export a named export for each HTTP method instead.
+[07:37:55.551] Server  ERROR    ⨯ No HTTP methods exported in '[project]/app/api/verify/route.ts'. Export a named export for each HTTP method.
+[07:39:37.892] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763317594224}
+[07:39:41.446] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:39:41.446] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:39:41.446] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763317597788}
+[07:47:49.119] Server  LOG      ✓ Compiled in 442ms
+[07:48:53.609] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[07:48:57.233] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:48:57.233] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:48:57.233] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318153577}
+[07:49:57.729] Server  LOG      ✓ Compiled in 429ms
+[07:50:08.704] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:50:08.704] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:50:08.704] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318225046}
+[07:52:35.269] Server  LOG      ✓ Compiled in 757ms
+[07:52:35.866] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'length')
+[07:52:42.321] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:52:42.321] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:52:42.321] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318378664}
+[07:52:42.680] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'length')
+[07:53:09.972] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[07:53:09.984] Server  LOG      ✓ Compiled in 516ms
+[07:53:11.660] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[07:53:11.660] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[07:53:11.660] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318408000}
+[07:57:45.440] Server  LOG      ✓ Compiled in 449ms
+[08:41:54.717] Server  LOG      ✓ Compiled in 869ms
+[10:41:46.524] Server  LOG      ✓ Compiled in 1181ms
+[10:42:39.426] Server  LOG      ✓ Compiled in 455ms
+[10:42:49.189] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[10:42:51.536] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:42:51.536] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:42:51.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328587863}
+[10:44:29.947] Server  LOG      ✓ Compiled in 543ms
+[10:44:35.938] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[10:44:36.155] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:44:36.155] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:44:36.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328692499}
+[10:45:52.452] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[10:45:52.702] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:45:52.702] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:45:52.702] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328769016}
+[10:47:13.490] Server  LOG      ✓ Compiled in 518ms
+[10:47:13.573] Browser ERROR   uncaughtError: TypeError: totalAmount.toFixed is not a function
+[10:47:46.655] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[10:47:46.668] Server  LOG      ✓ Compiled in 451ms
+[10:47:47.099] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328883169}
+[10:47:48.428] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:47:48.428] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:47:48.428] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328884767}
+[10:47:54.783] Server  LOG      ✓ Compiled in 662ms
+[10:48:00.678] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:48:00.678] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:48:00.678] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763328897020}
+[10:48:22.381] Server  LOG      ✓ Compiled in 737ms
+[10:51:13.146] Server  LOG      ✓ Compiled in 699ms
+[10:51:16.776] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[10:51:17.628] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:51:17.628] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:51:17.628] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329093952}
+[10:58:17.287] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:58:17.287] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[10:58:17.287] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329513627}
+[11:02:24.085] Server  LOG      ✓ Compiled in 850ms
+[11:02:30.148] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:02:30.148] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:02:30.148] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329766382}
+[11:03:06.336] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:03:06.336] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:03:06.336] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329802677}
+[11:03:42.327] Server  LOG      ✓ Compiled in 711ms
+[11:03:45.051] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+[11:04:08.374] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[11:04:08.388] Server  LOG      ✓ Compiled in 531ms
+[11:04:08.693] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329864885}
+[11:04:09.656] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[11:04:09.858] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:04:09.858] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:04:09.858] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763329866197}
+[11:07:07.603] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:07:07.603] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:07:07.603] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330043943}
+[11:07:11.715] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:07:11.715] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:07:11.715] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330048038}
+[11:07:20.412] Server  LOG      ✓ Compiled in 518ms
+[11:09:06.607] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:09:06.607] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+[11:09:24.557] Server  LOG      ✓ Compiled in 501ms
+[11:09:24.563] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[11:09:24.965] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330181076}
+[11:09:26.282] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:09:26.282] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:09:26.282] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330182616}
+[11:09:30.095] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:09:30.095] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+[11:09:49.065] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[11:09:49.089] Server  LOG      ✓ Compiled in 539ms
+[11:09:50.621] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:09:50.621] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:09:50.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330206963}
+[11:09:54.684] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:09:54.684] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'email')
+[11:10:18.529] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[11:10:18.554] Server  LOG      ✓ Compiled in 487ms
+[11:10:19.749] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[11:10:20.132] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:10:20.132] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:10:20.132] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330236470}
+[11:10:51.421] Server  LOG      ✓ Compiled in 738ms
+[11:10:57.575] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:10:57.575] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'brand')
+[11:11:34.122] Server  LOG      ✓ Compiled in 1154ms
+[11:11:34.152] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[11:11:34.611] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330310637}
+[11:11:35.914] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[11:11:36.542] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:11:36.542] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:11:36.542] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330312874}
+[11:11:39.613] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:12:39.781] Server  LOG      ✓ Compiled in 410ms
+[11:12:43.822] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:12:43.822] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:12:43.822] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330380166}
+[11:12:48.143] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:13:58.626] Server  LOG      ✓ Compiled in 383ms
+[11:14:17.597] Server  LOG      ✓ Compiled in 519ms
+[11:14:20.772] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:14:25.196] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:14:25.196] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[11:14:25.196] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330481540}
+[11:14:29.538] Browser LOG     Verification response: {"data":{"amount":1000000,"authorization":{"account_name":null,"authorization_code":"AUTH_xrd7xf7nq1","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T18:18:01.000Z","created_at":"2025-11-16T18:18:01.000Z","currency":"NGN","customer":{"customer_code":"CUS_uyln38p6d43dml6","email":"abdulmatinadeniji@gmail.com","first_name":null,"id":319505203,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":25000,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540514968,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Authentication Required: vault otp","time":23,"type":"auth"},{"message":"Set payment method to: card","time":31,"type":"action"},{"message":"Attempted to pay with card","time":39,"type":"action"},{"message":"Successfully paid with card","time":39,"type":"success"}],"input":[],"mobile":false,"start_time":1763317089,"success":true,"time_spent":39},"message":null,"metadata":{"full_name":"Abdulmatin Adeniji","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T18:18:48.000Z","paid_at":"2025-11-16T18:18:48.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"f4lb5nx6tx","requested_amount":1000000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T18:18:01.000Z"}}
+[11:14:43.828] Server  LOG      ✓ Compiled in 706ms
+[11:15:16.434] Browser LOG     Initialization response: {"access_code":"gqev56sp58u6b93","authorization_url":"https://checkout.paystack.com/gqev56sp58u6b93","reference":"o9h59prwyi"}
+[11:15:39.371] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:15:39.371] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:15:39.371] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330555712}
+[11:17:34.934] Server  LOG      ✓ Compiled in 241ms
+[11:18:59.914] Server  LOG      ✓ Compiled in 120ms
+[11:19:04.162] Browser LOG     Verifying reference: o9h59prwyi
+[11:19:04.538] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:19:04.538] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:19:04.538] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330760882}
+[11:19:44.189] Server  LOG      ✓ Compiled in 142ms
+[11:20:21.208] Browser LOG     Verifying reference: o9h59prwyi
+[11:20:21.529] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:20:21.529] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:20:21.529] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330837870}
+[11:22:10.672] Browser LOG     Verifying reference: o9h59prwyi
+[11:22:11.112] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:22:11.112] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:22:11.112] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330947453}
+[11:22:13.995] Browser LOG     Verifying reference: o9h59prwyi
+[11:22:14.310] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:22:14.310] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:22:14.310] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330950653}
+[11:22:35.855] Browser LOG     Verifying reference: o9h59prwyi
+[11:22:36.001] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:22:36.002] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:22:36.002] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330972337}
+[11:22:38.666] Browser LOG     Verifying reference: o9h59prwyi
+[11:22:38.839] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:22:38.839] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:22:38.839] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763330975178}
+[11:24:47.653] Browser LOG     Verifying reference: o9h59prwyi
+[11:24:47.797] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:24:47.797] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:24:47.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331104137}
+[11:24:53.648] Browser LOG     Verifying reference: o9h59prwyi
+[11:24:53.794] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:24:53.794] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:24:53.794] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331110138}
+[11:25:40.073] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/verify" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="font-sans antialiased"
+-                           data-new-gr-c-s-check-loaded="14.1263.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[11:25:40.075] Browser LOG     Verifying reference: o9h59prwyi
+[11:25:40.345] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:25:40.345] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:25:40.345] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331156686}
+[11:31:04.267] Browser LOG     Verifying reference: o9h59prwyi
+[11:31:05.740] Browser LOG     Verification data: {"data":{"amount":500000,"authorization":{"account_name":null,"authorization_code":"AUTH_kroxaf66yo","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T22:02:12.000Z","created_at":"2025-11-16T22:02:12.000Z","currency":"NGN","customer":{"customer_code":"CUS_p5sunftnt87jqhs","email":"johndoe@gmail.com","first_name":null,"id":319539133,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":17500,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540982821,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Attempted to pay with card","time":14,"type":"action"},{"message":"Successfully paid with card","time":14,"type":"success"}],"input":[],"mobile":false,"start_time":1763330539,"success":true,"time_spent":14},"message":null,"metadata":{"full_name":"John Doe","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T22:02:33.000Z","paid_at":"2025-11-16T22:02:33.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"o9h59prwyi","requested_amount":500000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T22:02:12.000Z"}}
+[11:31:06.007] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[11:31:06.007] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/verify","route":"/verify"}
+[11:31:06.007] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi color: rgb(120, 120, 120) color: inherit {"dp":"/verify","o":"http://localhost:3000/verify?trxref=o9h59prwyi&reference=o9h59prwyi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331482343}
+[11:31:09.975] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763331486307}
+[11:31:23.895] Browser LOG     Verification response: {"data":{"amount":500000,"authorization":{"account_name":null,"authorization_code":"AUTH_kroxaf66yo","bank":"TEST BANK","bin":"408408","brand":"visa","card_type":"visa ","channel":"card","country_code":"NG","exp_month":"12","exp_year":"2030","last4":"4081","receiver_bank":null,"receiver_bank_account_number":null,"reusable":true,"signature":"SIG_NeMVoDGocMKPXYwJUIGw"},"channel":"card","connect":null,"createdAt":"2025-11-16T22:02:12.000Z","created_at":"2025-11-16T22:02:12.000Z","currency":"NGN","customer":{"customer_code":"CUS_p5sunftnt87jqhs","email":"johndoe@gmail.com","first_name":null,"id":319539133,"international_format_phone":null,"last_name":null,"metadata":null,"phone":null,"risk_action":"default"},"domain":"test","fees":17500,"fees_breakdown":null,"fees_split":null,"gateway_response":"Successful","id":5540982821,"ip_address":"102.88.110.31","log":{"attempts":1,"errors":0,"history":[{"message":"Attempted to pay with card","time":14,"type":"action"},{"message":"Successfully paid with card","time":14,"type":"success"}],"input":[],"mobile":false,"start_time":1763330539,"success":true,"time_spent":14},"message":null,"metadata":{"full_name":"John Doe","referrer":"http://localhost:3000/"},"order_id":null,"paidAt":"2025-11-16T22:02:33.000Z","paid_at":"2025-11-16T22:02:33.000Z","plan":null,"plan_object":{},"pos_transaction_data":null,"receipt_number":null,"reference":"o9h59prwyi","requested_amount":500000,"source":null,"split":{},"status":"success","subaccount":{},"transaction_date":"2025-11-16T22:02:12.000Z"}}

@@ -12,6 +12,19 @@ interface PaymentFormProps {
   onSuccess?: (transaction: any) => void;
 }
 
+// Define the Transaction type
+export interface Transaction {
+  reference: string;
+  amount: number;
+  email: string;
+  fullName: string;
+  status: 'pending' | 'success' | 'failed' | string;
+  timestamp: string;
+  id?: string | number; // Optional ID
+  paid_at?: string; // Optional from Paystack
+  customer?: { email: string }; // Optional from Paystack
+}
+
 export function PaymentForm({ onSuccess }: PaymentFormProps) {
   const [amount, setAmount] = useState('');
   const [email, setEmail] = useState('');
@@ -40,13 +53,13 @@ export function PaymentForm({ onSuccess }: PaymentFormProps) {
 
     try {
       // Call your backend to initialize the transaction with Paystack
-      const response = await fetch('/api/paystack/initialize', {
+      const response = await fetch('/api/initialize', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          amount: Math.round(parseFloat(amount) * 100), // Convert to kobo
+          amount: parseFloat(amount),
           email,
           fullName,
           metadata: {
@@ -57,27 +70,27 @@ export function PaymentForm({ onSuccess }: PaymentFormProps) {
       });
 
       const data = await response.json();
-
+      console.log('Initialization response:', data);
       if (!response.ok) {
         throw new Error(data.error || 'Failed to initialize payment');
       }
 
       // Store transaction reference and redirect to payment URL
-      if (data.data?.authorization_url) {
+      if (data.authorization_url) {
         // Save reference to localStorage for verification later
-        localStorage.setItem('last_transaction_reference', data.data.reference);
+        localStorage.setItem('last_transaction_reference', data.reference);
         
         // Show success message and redirect
         setSuccessMessage('Redirecting to payment gateway...');
         setTimeout(() => {
-          window.location.href = data.data.authorization_url;
+          window.location.href = data.authorization_url;
         }, 1500);
 
         // Also add to transaction history
         if (onSuccess) {
           onSuccess({
             reference: data.data.reference,
-            amount: parseFloat(amount),
+            amount: parseFloat(amount), // Convert to kobo
             email,
             fullName,
             status: 'pending',
