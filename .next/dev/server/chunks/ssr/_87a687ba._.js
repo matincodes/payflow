@@ -440,8 +440,8 @@ function PaymentForm({ onSuccess }) {
                 // Also add to transaction history
                 if (onSuccess) {
                     onSuccess({
-                        reference: data.data.reference,
-                        amount: parseFloat(amount),
+                        reference: data.reference,
+                        amount: parseFloat(amount) * 100,
                         email,
                         fullName,
                         status: 'pending',

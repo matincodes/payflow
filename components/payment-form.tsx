@@ -89,8 +89,8 @@ export function PaymentForm({ onSuccess }: PaymentFormProps) {
         // Also add to transaction history
         if (onSuccess) {
           onSuccess({
-            reference: data.data.reference,
-            amount: parseFloat(amount), // Convert to kobo
+            reference: data.reference,
+            amount: parseFloat(amount) * 100, // Convert to kobo
             email,
             fullName,
             status: 'pending',
