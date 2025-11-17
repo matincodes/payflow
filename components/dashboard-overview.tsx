@@ -48,7 +48,7 @@ export function DashboardOverview({ transactions }: DashboardOverviewProps) {
     {
       icon: TrendingUp,
       label: 'Total Amount',
-      value: `₦${totalAmount.toFixed(2)}`,
+      value: `₦${(totalAmount / 100).toFixed(2)}`, // Convert Kobo to Naira
       change: '+0%',
       bgColor: 'bg-purple-100 dark:bg-purple-900',
       iconColor: 'text-purple-600 dark:text-purple-400',

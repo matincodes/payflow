@@ -1863,7 +1863,7 @@ function DashboardOverview({ transactions }) {
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$454$2e$0_react$40$19$2e$2$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"],
             label: 'Total Amount',
-            value: `₦${totalAmount.toFixed(2)}`,
+            value: `₦${(totalAmount / 100).toFixed(2)}`,
             change: '+0%',
             bgColor: 'bg-purple-100 dark:bg-purple-900',
             iconColor: 'text-purple-600 dark:text-purple-400'
@@ -2014,7 +2014,7 @@ function Dashboard() {
             const apiTransactions = data.map((tx)=>({
                     id: tx.id,
                     reference: tx.reference,
-                    amount: tx.amount / 100,
+                    amount: tx.amount,
                     email: tx.customer.email,
                     fullName: tx.metadata?.full_name || 'N/A',
                     status: tx.status,

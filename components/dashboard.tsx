@@ -46,7 +46,7 @@ export function Dashboard() {
       const apiTransactions: Transaction[] = data.map((tx: ApiTransaction) => ({
         id: tx.id,
         reference: tx.reference,
-        amount: tx.amount/100, 
+        amount: tx.amount, 
         email: tx.customer.email,
         fullName: tx.metadata?.full_name || 'N/A', // Handle missing metadata
         status: tx.status,
